@@ -1,21 +1,47 @@
-Question Bank Manager
-A web application to manage technical questions. Users can upload questions via CSV files, store them in a MySQL database, and fetch them through a frontend interface built with React.js.
+1. Question Bank
+A full-stack application to manage and search technical interview questions based on technology, role, and experience level.
+This project helps interviewers, students, and developers quickly find relevant questions from a centralized system.
 
-Description
-The Question Bank Manager allows organizations to manage their technical question bank efficiently. It supports uploading questions from CSV files and storing them in a structured database. The frontend provides a user-friendly interface to upload and view questions.
+2. Features
+1.Add, update, delete questions
+2.Filter / search by:
+✔️ Technology
+✔️ Role
+✔️ Experience level
+3.REST API built with Spring Boot
+4.Frontend (React) consumes the API
+5.CORS enabled for frontend–backend communication
+6.Connected with database for persistent storage
 
-Features
-Upload questions using CSV files
-Store questions in MySQL database
-Fetch and display questions in frontend
-Manage questions by role, experience, and technology
-have Rest Api to get the Data
-Technologies Used
-Backend: Java, Spring Boot, OpenCSV ,Spring Data Jpa
-Frontend: React.js, Tailwind CSS
-Database: MySQL
-Others: Maven,
-Backend
-1.Clone the repository:
-git clone <repo-url>
-cd Bank
+3. Project Architecture
+    Frontend (React)
+           ⬇
+    Backend (Spring Boot)
+           ⬇
+    Database (MySQL / PostgreSQL)
+
+4. 🛠️ Tech Stack
+--> Backend
+    Java
+    Spring Boot
+    Spring Data JPA
+    MySQL (or any relational DB)
+--> Frontend
+    React js
+    Tailwind
+
+5. 📂 Folder Structure
+     Question-Bank/
+   Question-Bank/
+   ├── backend/
+   │   ├── src/main/java/com/questionbank
+   │   └── ...
+   ├── frontend/
+   │   ├── src/
+   │   └── ...
+   ├── README.md
+
+6. ScreenShop
+  <img width="1897" height="899" alt="image" src="https://github.com/user-attachments/assets/3b2bb83f-ad13-4b8e-9e01-c3e7b376b8aa" />
+  <img width="1492" height="730" alt="image" src="https://github.com/user-attachments/assets/58273a98-5e22-48f7-9797-219ef4a225d5" />
+
